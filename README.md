@@ -1,47 +1,51 @@
-## Getting Started
+# Mein DApp-Projekt
 
-Create a project using this example:
+Dieses Repository enthält den Code für eine dezentrale Anwendung (DApp) mit Smart Contracts, die auf der Ethereum-Blockchain ausgeführt werden. Das Projekt verwendet das ThirdWeb-Framework und die Hardhat-JavaScript-Starter-Vorlage, um die Entwicklung und Bereitstellung von Smart Contracts zu erleichtern.
+
+## Erste Schritte
+
+Um ein neues Projekt mit diesem Beispiel zu erstellen, führen Sie den folgenden Befehl aus:
 
 ```bash
 npx thirdweb create --contract --template hardhat-javascript-starter
 ```
 
-You can start editing the page by modifying `contracts/Contract.sol`.
+Sie können die Seite bearbeiten, indem Sie `contracts/Contract.sol` ändern.
 
-To add functionality to your contracts, you can use the `@thirdweb-dev/contracts` package which provides base contracts and extensions to inherit. The package is already installed with this project. Head to our [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) to learn more.
+Um Ihrer Verträge zusätzliche Funktionen hinzuzufügen, können Sie das Paket `@thirdweb-dev/contracts` verwenden, das Basisverträge und Erweiterungen zum Vererben bereitstellt. Das Paket ist bereits in diesem Projekt installiert. Weitere Informationen finden Sie in unserer [Contracts Extensions Docs](https://docs.thirdweb.com/docs/contracts/extensions).
 
-## Building the project
+## Projekt erstellen
 
-After any changes to the contract, run:
+Führen Sie nach Änderungen am Vertrag den folgenden Befehl aus:
 
 ```bash
 npm run build
-# or
+# oder
 yarn build
 ```
 
-to compile your contracts. This will also detect the [Contracts Extensions Docs](https://portal.thirdweb.com/contractkit) detected on your contract.
+Dies kompiliert Ihre Verträge und erkennt auch die [Contracts Extensions Docs](https://docs.thirdweb.com/docs/contracts/extensions), die in Ihrem Vertrag erkannt wurden.
 
-## Deploying Contracts
+## Verträge bereitstellen
 
-When you're ready to deploy your contracts, just run one of the following command to deploy you're contracts:
+Wenn Sie Ihre Verträge bereitstellen möchten, führen Sie einen der folgenden Befehle aus, um Ihre Verträge zu bereitstellen:
 
 ```bash
 npm run deploy
-# or
+# oder
 yarn deploy
 ```
 
-## Releasing Contracts
+## Verträge veröffentlichen
 
-If you want to release a version of your contracts publicly, you can use one of the followings command:
+Wenn Sie eine Version Ihrer Verträge öffentlich freigeben möchten, können Sie einen der folgenden Befehle verwenden:
 
 ```bash
 npm run release
-# or
+# oder
 yarn release
 ```
 
-## Join our Discord!
+## Lizenz
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen finden Sie in der [LICENSE](LICENSE)-Datei.
